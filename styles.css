@@ -60,3 +60,46 @@ body,
     align-items: center;
     justify-content: center;
 }
+
+.header-caption {
+    height: 62%;
+    background-image: url("./assets/audi-submit.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left:100px;
+    padding-top:40px;
+}
+
+.header-caption_h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.header-caption_h3 {
+    color: white;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.button-header-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    width: 130px;
+    height: 65px;
+    background-color: white;
+}
+
+.register p {
+    color: black;
+}
+
+.register:hover {
+    background-color: rgb(120, 120, 120);
+    color:white;
+}
