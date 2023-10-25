@@ -103,3 +103,28 @@ body,
     background-color: rgb(120, 120, 120);
     color:white;
 }
+
+.header-info {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:60px;
+    text-align: center;
+    gap:2rem;
+}
+
+.header-info-h3 {
+    height: auto;
+    width: 60%;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.header-info-h5 {
+    font-size: 15px;
+    height: auto;
+    width: 70%;
+    padding: 10px;
+    font-weight: 400;
+}
