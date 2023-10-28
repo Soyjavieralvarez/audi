@@ -63,7 +63,8 @@ body,
 
 .header-caption {
     height: 62%;
-    background-image: url("./assets/audi-submit.jpg");
+    background-image: url("./assets/audi-q4.jpg");
+    height: 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -73,13 +74,16 @@ body,
 }
 
 .header-caption_h1 {
+    width: 80%;
     color: white;
-    font-weight: 900;
+    font-weight: 400;
+    font-size: 60px;
 }
 
 .header-caption_h3 {
     color: white;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     padding-bottom: 40px;
 }
 
@@ -90,9 +94,10 @@ body,
 }
 
 .register_header {
-    width: 130px;
+    width: 150px;
     height: 65px;
     background-color: white;
+    border: solid 1px white;
 }
 
 .register_header p {
