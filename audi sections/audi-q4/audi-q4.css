@@ -238,3 +238,31 @@ body,
     align-items: center;
     justify-content: center;
 }
+
+/* Section Innovation design */ 
+
+.innovation-design {
+    background-color: black;
+}
+
+.box-innovation-design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.innovation-design-text {
+    color: white;
+    padding: 70px;
+}
+
+.h5-innovation-design {
+    font-size: 25px;
+    height: 60px;
+    font-weight: 400;
+}
+
+.p-innovation-design {
+    font-size: 15px;
+}
