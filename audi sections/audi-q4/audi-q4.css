@@ -266,3 +266,60 @@ body,
 .p-innovation-design {
     font-size: 15px;
 }
+
+.img-innovation-design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section CUSTOMIZE */ 
+
+.customize-audi {
+    display: flex;
+}
+
+.box-customize-audi {
+    margin: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.customize-text {
+    margin:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.h4-customize {
+    font-size: 35px;
+    width: 55%;
+    height: 30%;
+}
+
+.p-customize {
+    width: 80%;
+    height: 20%;
+}
+
+.button-customize {
+    border: solid 1px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 30%;
+    background-color: white;
+}
+
+.button-customize:hover {
+    background-color: #e9ebec;
+}
+
+.button-customize a {
+    color: black;
+}
