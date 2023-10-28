@@ -139,6 +139,8 @@ body,
     display: flex;
     flex-direction: row;
     width: 100%;
+    align-items: center;
+    justify-content: center;
     /* height: 75%; */
 }
 
@@ -149,13 +151,16 @@ body,
 
 .img-audi-q4 {
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .information-audi-q4 {
     height: 93%;
     color:white;
     background-color: black;
-    padding:100px;
+    padding:72px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,3 +203,38 @@ body,
     color: white;
 }
 
+/* Section audi option */
+
+.audi-option {
+    display: flex;
+}
+
+.box-audi-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+}
+
+.audi-option-text {
+    padding: 50px;
+}
+
+.h4-audi-option {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.p-audi-option {
+    width: 100%;
+}
+
+.audi-option-img {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
