@@ -102,3 +102,19 @@ form {
 .information {
     border-bottom: solid 1px black;
 }
+
+.personal-information-2 {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.select-box {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 100px;
+}
+
