@@ -188,6 +188,7 @@ body,
 
 .summit-button:hover {
     background-color: #e9ebec;
+    border: #e9ebec;
 }
 
 .audi-summit-2 {
@@ -242,6 +243,7 @@ body,
 
 .summit-button_2:hover {
     background-color: white;
+    border: white;
 }
 
 .register {
@@ -275,7 +277,7 @@ body,
 
 .button_streaming {
     background-color: white;
-    height: 50px;
+    height: 60px;
     margin-top: 30px;
     width: 20%;
 }
