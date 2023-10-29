@@ -318,8 +318,67 @@ body,
 
 .button-customize:hover {
     background-color: #e9ebec;
+    border: solid 1px #e9ebec;
 }
 
 .button-customize a {
     color: black;
+}
+
+/* SECTION AUDI SPORTBACK */ 
+
+.audi-q4-sportback {
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h4-sportback {
+    font-size: 55px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.box-audi-sportback {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.sportback-text {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.h4-sportback-text {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.p-sportback-text {
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+
+.button-sportback {
+    background-color: white;
+    border: solid 1px black;
+    width: 25%;
+    height: 60px;
+}
+
+.button-sportback:hover {
+    background-color: #e9ebec;
+    border: solid 1px #e9ebec;
 }
