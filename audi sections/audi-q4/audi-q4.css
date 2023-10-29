@@ -442,3 +442,32 @@ body,
     width: 90%;
     padding: 20px;
 }
+
+.footer-text-2 {
+    margin:30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box-text-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+.span-text-2 {
+    padding: 10px;
+}
+
+.span-text-2 a {
+    color: white;
+}
+
+.span-text-2 a:hover {
+    color:#6a6d6d
+}
