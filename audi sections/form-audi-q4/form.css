@@ -1,3 +1,7 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .header-form{
     display: flex;
     align-items: center;
@@ -50,7 +54,6 @@
 /* SECTION FORM */ 
 
 .section-form {
-    border: solid 1px red;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -59,7 +62,6 @@
 }
 
 form {
-    border: solid 1px yellow;
     width: 60%;
     padding: 50px;
 }
@@ -118,3 +120,51 @@ form {
     height: 100px;
 }
 
+.newsletter {
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h5-newsletter {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p-newsletter {
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 50px;
+    background-color: black;
+    border: none;
+}
+
+.button-form:hover {
+    background-color: red;
+
+}
+
+.p-button-form {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.p-politics {
+    padding-top: 10px;
+    font-size: 13px;
+}
