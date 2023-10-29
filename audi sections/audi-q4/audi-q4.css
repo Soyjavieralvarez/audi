@@ -387,7 +387,7 @@ body,
 
 .footer {
     background-color: black;
-    height: 100%;
+    height: auto;
 }
 
 .footer-text {
@@ -457,7 +457,7 @@ body,
     justify-content: space-between;
     color: white;
     font-size: 12px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .span-text-2 {
@@ -470,4 +470,22 @@ body,
 
 .span-text-2 a:hover {
     color:#6a6d6d
+}
+
+.footer-text-3 {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-text-3 {
+    width: 95%;
+}
+
+
+.p-text-3 {
+    color: white;
+    font-size: 12px;
+    padding:20px;
 }
