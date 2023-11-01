@@ -892,4 +892,135 @@ body,
         width: 300px;
     }
 
+    .footer {
+        background-color: black;
+        height: auto;
+      }
+    
+      .return {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+    
+      .span-return {
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+      }
+    
+      .footer-text {
+        margin: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .box-footer {
+        padding: 10px;
+        margin: 10px;
+      }
+    
+      .p-footer {
+        margin: 20px;
+        text-align: center;
+        color: white;
+        padding-bottom: 0px;
+        font-size: 20px;
+        font-weight: 400;
+      }
+    
+      .li-footer {
+        text-align: center;
+        margin: 10px;
+        padding-bottom: 0px;
+        font-size: 15px;
+        list-style: none;
+      }
+    
+      .li-footer a {
+        color: white;
+        font-size: 13px;
+        font-weight: 300;
+      }
+    
+      .li-footer a:hover {
+        color: #6a6d6d;
+      }
+    
+      .box-rrss {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px white;
+      }
+    
+      .rrss-li {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        width: auto;
+        padding: 20px;
+        border-bottom: none;
+      }
+    
+      .lu-rrss {
+        display: none;
+      }
+    
+      .footer-text-2 {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .box-text-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        font-size: 12px;
+        padding-bottom: 10px;
+      }
+    
+      .span-text-2 {
+        margin: 10px;
+        padding: 10px;
+      }
+    
+      .span-text-2 a {
+        color: white;
+      }
+    
+      .span-text-2 a:hover {
+        color: #6a6d6d;
+      }
+    
+      .footer-text-3 {
+        text-align: center;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .box-text-3 {
+        width: 95%;
+      }
+    
+      .p-text-3 {
+        color: white;
+        font-size: 12px;
+        padding: 20px;
+      }
+
  }
