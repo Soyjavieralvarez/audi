@@ -18,9 +18,7 @@ body,
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
     width: 100%;
-    height: 100%;
     border-bottom: solid 1px black;
 }
 
@@ -64,8 +62,8 @@ body,
 /* SECTION INFO Q-$ */ 
 
 .info-q4 {
-    background-image: url("../../assets/audi-q4.jpg");
-    height: 100%;
+    background-image: url("../../assets/audi-q5.jpg");
+    padding: 80px;
 }
 
 .box-info-q4 {
@@ -106,7 +104,8 @@ body,
 /* SECTION CAPTION Q4 */ 
 
 .caption-q4 {
-    height: 40%;
+    padding: 40px;
+    margin: 20px;
 }
 
 .box-caption-q4 {
@@ -138,10 +137,9 @@ body,
 .audi-q4-info{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     align-items: center;
     justify-content: center;
-    /* height: 75%; */
 }
 
 .box-audi-q4 {
@@ -157,7 +155,6 @@ body,
 }
 
 .information-audi-q4 {
-    height: 93%;
     color:white;
     background-color: black;
     padding:72px;
@@ -206,6 +203,8 @@ body,
 /* Section audi option */
 
 .audi-option {
+    padding: 10px;
+    margin: 40px;
     display: flex;
 }
 
@@ -276,6 +275,8 @@ body,
 /* Section CUSTOMIZE */ 
 
 .customize-audi {
+    margin: 40px;
+    padding: 20px;
     display: flex;
 }
 
@@ -328,7 +329,6 @@ body,
 /* SECTION AUDI SPORTBACK */ 
 
 .audi-q4-sportback {
-    height: 100%;
     margin: 20px;
     display: flex;
     align-items: center;
@@ -376,6 +376,10 @@ body,
     border: solid 1px black;
     width: 25%;
     height: 60px;
+}
+
+.button-sportback a {
+    color: black;
 }
 
 .button-sportback:hover {
