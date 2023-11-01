@@ -535,7 +535,7 @@ body,
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 900px;
+    padding-top: 300px;
   }
 
   .register_header {
