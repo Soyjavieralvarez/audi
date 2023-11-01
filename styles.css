@@ -20,7 +20,6 @@ body,
   justify-content: space-between;
   padding: 10px;
   width: 100%;
-  height: 100%;
   border-bottom: solid 1px black;
 }
 
@@ -470,7 +469,6 @@ body,
 
 @media only screen and (max-width: 767px) {
   .header {
-    border: solid 1px red;
     display: none;
   }
 
@@ -508,18 +506,18 @@ body,
 
   .header-caption {
     background-image: url("./assets/audi-movile.jpg");
-    height: 140%;
+    height: 160%;
     display: flex;
     align-items: center;
     padding-left: 0px;
-    padding-top: 10px;
+    padding-top: 0px;
   }
 
   .header-caption_h1 {
     width: auto;
     color: white;
     font-weight: 400;
-    padding: 10px;
+    margin: 20px;
     font-size: 40px;
     text-align: left;
   }
@@ -530,13 +528,14 @@ body,
     font-weight: 400;
     padding-bottom: 0px;
     padding: 10px;
+    margin: 20px;
   }
 
   .button-header-caption {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 900px;
   }
 
   .register_header {
@@ -557,13 +556,15 @@ body,
   }
 
   .header-info-h3 {
+    text-align: center;
     height: auto;
-    width: auto;
-    font-size: 50px;
+    width: 90%;
+    font-size: 40px;
     font-weight: 500;
   }
 
   .header-info-h5 {
+    text-align: center;
     font-size: 20px;
     height: auto;
     width: 70%;
@@ -576,7 +577,7 @@ body,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: auto;
     margin: 0px;
     padding: 20px;
   }
@@ -592,7 +593,7 @@ body,
   .summit-info-h3 {
     text-align: center;
     height: 0px;
-    width: 100%;
+    width: auto;
     font-size: 30px;
     padding: 50px;
     margin: 20px;
@@ -648,7 +649,7 @@ body,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: auto;
     margin: 0px;
     padding: 20px;
   }
@@ -732,7 +733,7 @@ body,
     align-items: center;
     justify-content: center;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 60px;
     padding: 20px;
     width: 60%;
     border: none;
@@ -744,6 +745,7 @@ body,
   }
 
   .interest {
+    width: 100%;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -759,6 +761,7 @@ body,
   }
 
   .interest_information_audi {
+    width: 100%;
     padding: 0px;
     margin: 30px;
     display: flex;
@@ -842,16 +845,22 @@ body,
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: solid 1px white;
   }
 
   .rrss-li {
-    border-bottom: solid 1px white;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-right: 60px;
-    width: 90%;
+    align-items: center;
+    margin-right: 0px;
+    width: auto;
     padding: 20px;
+    border-bottom: none;
+  }
+
+  .lu-rrss {
+    display: none;
   }
 
   .footer-text-2 {
