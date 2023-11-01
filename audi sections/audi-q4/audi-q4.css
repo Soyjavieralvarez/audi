@@ -635,6 +635,12 @@ body,
     font-size: 15px;
   }
 
+  .button-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .button-information {
     display: flex;
     justify-content: center;
@@ -643,7 +649,7 @@ body,
     background-color: black;
     height: 50px;
     border: solid 1px white;
-    width: 40%;
+    width: 60%;
     padding: 20px;
   }
 
