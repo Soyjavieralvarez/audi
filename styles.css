@@ -133,78 +133,78 @@ body,
 }
 
 .audi-summit {
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.audi-summit_1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding:100px;
-}
-
-.audi-summit_info {
+    padding: 20px;
+    margin: 80px;
+  }
+  
+  .audi-summit_info {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
-    height: auto;
-    padding-top:10%;
-    padding-bottom:10%;
-    padding-left:10%;
-}
-
-.summit-info-h3 {
+    margin: 60px;
+  }
+  
+  .summit-info-h3 {
     display: flex;
     align-items: center;
-    height: 150px;
-    width: 70%;
-    font-size: 40px;
-}
-
-.summit-info-h5 {
-    width: 75%;
-    font-size: 15px;
+    margin: 30px;
+    font-size: 60px;
+  }
+  
+  .summit-info-h5 {
+    margin: 30px;
+    font-size: 20px;
     font-weight: 400;
-}
-
-.summit-button{
-    margin-top: 20px;
-    width: 30%;
-    height: 60px;
+  }
+  
+  .summit-button {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .summit-button button {
+    padding: 20px 40px;
     background-color: white;
     border: solid 1px black;
-}
-
-.summit-button p {
-    color:rgb(0, 0, 0);
-}
-
-.summit-button:hover {
+  }
+  
+  .summit-button button p {
+    color: rgb(0, 0, 0);
+  }
+  
+  .summit-button button:hover {
     background-color: #e9ebec;
     border: #e9ebec;
-}
+  }
+  
+  .audi-summit-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 20px;
+  }
+  
+  .summit-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+  }
 
 .audi-summit-2 {
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #e9ebec;
-    padding: 100px;
-}
-
-.audi-summit_2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 85%;
+    padding: 20px;
 }
 
 .audi-summit_info_2{
@@ -212,48 +212,54 @@ body,
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
-    height: 100%;
-    padding-top:10%;
-    padding-bottom:10%;
-    padding-left:10%;
+    padding: 20px;
+    margin: 80px;
 }
 
 .summit-info-h3_2{
-    display: flex;
-    align-items: center;
-    height: 150px;
-    width: 70%;
-    font-size: 40px;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  font-size: 60px;
 }
 
 .summit-info-h5_2{
-    width: 90%;
-    font-size: 15px;
+    margin: 30px;
+    font-size: 20px;
     font-weight: 400;
 }
 
-.summit-button_2{
-    margin-top: 20px;
-    width: 35%;
-    height: 60px;
+.summit-button-2{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.summit-button-2 button {
+    padding: 20px 40px;
     background-color: #e9ebec;
     border: solid 1px black;
 }
 
-.summit-button_2:hover {
-    background-color: white;
-    border: white;
+.summit-button-2 button:hover {
+    background-color: #ffffff;
+    border: none;
+}
+
+.summit-button-2 button a {
+    text-decoration: none;
+    color: black;
 }
 
 .register {
-    height: 60%;
-    width: auto;
+    padding: 30px;
     background-image: url("./assets/audi-submit.jpg");
     background-repeat: no-repeat;
 }
 
 .register_event {
-    height: 100%;
     display: flex;
     flex-direction: column;
     padding:80px;
@@ -281,56 +287,66 @@ body,
     width: 20%;
 }
 
+.button_streaming a {
+    color: black;
+}
+
 .button_streaming:hover {
     background-color: #e9ebec;
 }
 
 .interest{
-    /* border: solid 1px red; */
-    height: 100%;
-}
-
-.interest_information {
+    padding: 20px;
     display: flex;
-    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .interest_h4 {
-    width: 100%;
-    font-size: 60px;
-    font-weight: 400;
+    padding: 60px;
     text-align: center;
+    font-size: 60px;
 }
 
 .interest_information_audi {
+    padding:20px;
+    margin: 40px;
     display: flex;
     flex-direction: row;
 }
 
 .interest_information_box{
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
 }
 
 .interest_information_box img {
     width: 500px;
 }
 
+.information-audi-final {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .box_h5 {
     padding: 10px;
-    width: 80%;
     font-size: 15px;
 }
 
 .box_p {
-    width: 80%;
     padding: 10px;
     font-size: 15px;
 }
 
 .box_a{ 
-    width: 80%;
+    color: black;
 }
 
 /* Section footer */ 
@@ -565,325 +581,216 @@ body,
     }
     
     .audi-summit {
-        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-    
-    .audi-summit_1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: auto;
-        padding:30px;
-    }
-    
-    .audi-summit_info {
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content: center;
-        height: auto;
-        width: 50%;
+        width: 100%;
+        margin: 0px;
         padding: 20px;
-    }
+      }
     
-    .summit-info-h3 {
-        padding: 20px;
+      .audi-summit_info {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        height: auto;
-        width: auto;
-        font-size: 35px;
-    }
+        justify-content: center;
+        margin: 0px;
+      }
     
-    .summit-info-h5 {
-        padding: 10px;
-        width: auto;
+      .summit-info-h3 {
+        text-align: center;
+        height: 0px;
+        width: 100%;
+        font-size: 30px;
+        padding: 50px;
+        margin: 20px;
+      }
+    
+      .summit-info-h5 {
+        width: 75%;
         font-size: 15px;
         font-weight: 400;
-    }
+        text-align: center;
+      }
     
-    .summit-button{
+      .summit-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-top: 20px;
-        width: 40%;
-        height: 60px;
+        width: 100%;
+      }
+    
+      .summit-button button {
+        padding: 20px 40px;
         background-color: white;
         border: solid 1px black;
-    }
+      }
     
-    .summit-button p {
-        color:rgb(0, 0, 0);
-    }
+      .summit-button button p {
+        color: rgb(0, 0, 0);
+      }
     
-    .summit-button:hover {
+      .summit-button button:hover {
         background-color: #e9ebec;
         border: #e9ebec;
-    }
-
+      }
     
-    .audi-summit-2 {
-        height: auto;
+      .audi-summit-photo {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #e9ebec;
-        padding: 100px;
-    }
+        margin: 50px;
+        padding: 10px;
+      }
     
-    .audi-summit_2 {
+      .summit-img {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
         align-items: center;
-        width: 85%;
+        justify-content: center;
+        width: 300px;
+      }
+    
+      .audi-summit-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
     }
     
     .audi-summit_info_2{
         display: flex;
         flex-direction: column;
-        align-items:flex-start;
+        align-items: center;
         justify-content: center;
-        height: 100%;
-        padding-top:10%;
-        padding-bottom:10%;
-        padding-left:10%;
+        margin: 0px;
     }
     
     .summit-info-h3_2{
         display: flex;
         align-items: center;
-        height: 150px;
-        width: 70%;
-        font-size: 40px;
+        justify-content: center;
+        text-align: center;
+        height: 0px;
+        width: 100%;
+        font-size: 30px;
+        padding: 30px;
+        margin: 20px;
     }
     
     .summit-info-h5_2{
-        width: 90%;
-        font-size: 15px;
-        font-weight: 400;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
     }
     
-    .summit-button_2{
-        margin-top: 20px;
-        width: 35%;
-        height: 60px;
+    .summit-button-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    }
+    
+    .summit-button-2 button {
+        padding: 20px 40px;
         background-color: #e9ebec;
         border: solid 1px black;
     }
     
-    .summit-button_2:hover {
-        background-color: white;
-        border: white;
+    .summit-button-2 button:hover {
+        background-color: #ffffff;
+        border: none;
     }
     
+    .summit-button-2 button a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
     .register {
-        height: 60%;
-        width: auto;
-        background-image: url("./assets/audi-submit.jpg");
-        background-repeat: no-repeat;
+        padding: 30px;
+        background-image: url("./assets/audi-mobile-2.jpg");
     }
     
     .register_event {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        padding:80px;
+        padding:10px;
         
     }
     
     .register_event_h3 {
-        font-size: 50px;
-        width: 70%;
+        font-size: 40px;
+        width: 90%;
         color: white;
         padding-bottom: 20px;
     }
     
     .register_event_h4 {
-        width: 50%;
-        font-size: 30px;
+        width: 90%;
+        font-size: 25px;
         color: white;
-        padding-bottom: 10px;
+        padding: 10px;
     }
     
     .button_streaming {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: white;
-        height: 60px;
         margin-top: 30px;
-        width: 20%;
+        padding: 20px;
+        width: 60%;
+        border: none;
     }
     
-    .button_streaming:hover {
-        background-color: #e9ebec;
+    .button_streaming a {
+        color: black;
+        font-size: 15px;
     }
     
     .interest{
-        /* border: solid 1px red; */
-        height: 100%;
-    }
-    
-    .interest_information {
-        display: flex;
-        padding: 100px;
-    }
-    
-    .interest_h4 {
-        width: 100%;
-        font-size: 60px;
-        font-weight: 400;
-        text-align: center;
-    }
-    
-    .interest_information_audi {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .interest_information_box{
+        padding: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+    
+    .interest_h4 {
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .interest_information_audi {
+        padding:0px;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .interest_information_box{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
     }
     
     .interest_information_box img {
-        width: 500px;
-    }
-    
-    .box_h5 {
-        padding: 10px;
-        width: 80%;
-        font-size: 15px;
-    }
-    
-    .box_p {
-        width: 80%;
-        padding: 10px;
-        font-size: 15px;
-    }
-    
-    .box_a{ 
-        width: 80%;
-    }
-    
-    /* Section footer */ 
-    
-    .footer {
-        background-color: black;
-        height: auto;
-    }
-    
-    .return {
-        display: flex;
-        justify-content: flex-end;
-        padding: 10px;
-    }
-    
-    .span-return {
-        color: white;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    
-    .footer-text {
-        margin: 10px;
-        padding:100px;
-        display: flex;
-        flex-direction: row;
-        align-items:flex-start;
-        justify-content: space-between;
-    }
-    
-    .box-footer {
-        padding: 10px;
-    }
-    
-    .p-footer {
-        color: white;
-        padding-bottom: 50px;
-        font-size: 20px;
-        font-weight: 400;
-    }
-    
-    .li-footer{
-        padding-bottom: 20px;
-        font-size: 15px;
-        list-style: none;
-    }
-    
-    .li-footer a{
-        color:white;
-        font-size: 13px;
-        font-weight: 300;
-    }
-    
-    .li-footer a:hover{
-        color:#6a6d6d;
-    }
-    
-    .box-rrss {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .rrss-li {
-        border-bottom: solid 1px white;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        margin-right: 60px;
-        width: 90%;
         padding: 20px;
+        width: 350px;
     }
-    
-    .footer-text-2 {
-        margin:30px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-    }
-    
-    .box-text-2 {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: white;
-        font-size: 12px;
-        padding-bottom: 30px;
-    }
-    
-    .span-text-2 {
-        padding: 10px;
-    }
-    
-    .span-text-2 a {
-        color: white;
-    }
-    
-    .span-text-2 a:hover {
-        color:#6a6d6d
-    }
-    
-    .footer-text-3 {
-        padding: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .box-text-3 {
-        width: 95%;
-    }
+
     
     
-    .p-text-3 {
-        color: white;
-        font-size: 12px;
-        padding:20px;
-    }
   }
