@@ -67,9 +67,8 @@ body,
 }
 
 .box-info-q4 {
-    display: flex;
-    flex-direction: column;
     padding: 80px;
+    margin: 20px;
 }
 
 .h1_q4 {
@@ -113,7 +112,6 @@ body,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
 }
 
 .h3_caption {
@@ -293,18 +291,16 @@ body,
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 50%;
+    gap: 2rem;
 }
 
 .h4-customize {
     font-size: 35px;
     width: 55%;
-    height: 30%;
 }
 
 .p-customize {
     width: 80%;
-    height: 20%;
 }
 
 .button-customize {
@@ -312,8 +308,8 @@ body,
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
     width: 30%;
+    padding: 20px;
     background-color: white;
 }
 
@@ -374,8 +370,9 @@ body,
 .button-sportback {
     background-color: white;
     border: solid 1px black;
-    width: 25%;
-    height: 60px;
+    width: 100%;
+    padding: 20px;
+
 }
 
 .button-sportback a {
@@ -505,3 +502,394 @@ body,
     font-size: 12px;
     padding:20px;
 }
+
+
+
+
+
+/* MEDIA QUERY MOBILE */
+
+@media only screen and (max-width: 767px) {
+
+    
+    .nav {
+        display: none;
+    }
+    
+    /* SECTION INFO Q-$ */ 
+    
+    .info-q4 {
+        background-image: url("../../assets/audi-movile.jpg");
+        padding: 0px;
+    }
+    
+    .box-info-q4 {
+        padding: 150px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .h1_q4 {
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+        width: 300%;
+        color: white;
+    }
+    
+    .h2_q4 {
+        color: white;
+        margin-bottom: 0px;
+        width: 400%;
+        padding: 20px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .button_q4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 100px;
+        background-color: white;
+    }
+    
+    /* SECTION CAPTION Q4 */ 
+    
+    .caption-q4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .box-caption-q4 {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .h3_caption {
+        margin: 20px;
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 500;
+        width: 75%;
+        text-align: center;
+    }
+    
+    .p_caption {
+        padding: 10px;
+        text-align: center;
+        width: 60%;
+        font-size: 15px;
+    }
+    
+    /* SECTION AUDI Q4 INFO */ 
+    
+    .audi-q4-info{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box-audi-q4 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img-audi-q4 {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .information-audi-q4 {
+        color:white;
+        background-color: black;
+        padding:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .h3-information {
+        margin-bottom: 50px;
+        font-size: 30px;
+        font-weight: 400;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .li-information {
+        margin: 10px;
+        list-style: none;
+        padding-top: 15px;
+    }
+    
+    .p-information {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .button-information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:30px;
+        background-color: black;
+        height: 50px;
+        border: solid 1px white;
+        width: 40%;
+        padding: 20px;
+    }
+    
+    .button-information:hover {
+        background-color: #3c3d3d;
+    }
+    
+    .button-information a {
+        color: white;
+    }
+    
+    /* Section audi option */
+    
+    .audi-option {
+        padding: 10px;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box-audi-option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    
+    .audi-option-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        padding: 50px;
+    }
+    
+    .h4-audi-option {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        width: 900%;
+    }
+    
+    .p-audi-option {
+        padding: 20px;
+        text-align: center;
+        width: 1000%;
+    }
+    
+    .audi-option-img {
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Section Innovation design */ 
+    
+    .innovation-design {
+        background-color: black;
+    }
+    
+    .box-innovation-design {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .innovation-design-text {
+        color: white;
+        padding: 70px;
+    }
+    
+    .h5-innovation-design {
+        font-size: 25px;
+        height: 60px;
+        font-weight: 400;
+    }
+    
+    .p-innovation-design {
+        font-size: 15px;
+    }
+    
+    .img-innovation-design {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-innovation-design img {
+        width: 400px;
+    }
+    
+    /* Section CUSTOMIZE */ 
+    
+    .customize-audi {
+        margin: 40px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box-customize-audi {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customize-img img {
+        width: 300px;
+    }
+    
+    .customize-text {
+        margin:20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .h4-customize {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .p-customize {
+        width: 100%;
+        font: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .button-customize {
+        border: solid 1px rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        padding: 0px;
+        background-color: white;
+    }
+
+    .button-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .button-customize:hover {
+        background-color: #e9ebec;
+        border: solid 1px #e9ebec;
+    }
+    
+    .button-customize a {
+        color: black;
+    }
+    
+    /* SECTION AUDI SPORTBACK */ 
+    
+    .audi-q4-sportback {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .h4-sportback {
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    
+    .box-audi-sportback {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .sportback-text {
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .h4-sportback-text {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 30px;
+    }
+    
+    .p-sportback-text {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .button-3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .button-sportback {
+        background-color: white;
+        border: solid 1px black;
+        width: 40%;
+        height: 60px;
+    }
+    
+    .button-sportback a {
+        color: black;
+    }
+    
+    .button-sportback:hover {
+        background-color: #e9ebec;
+        border: solid 1px #e9ebec;
+    }
+
+    .img-sportback img {
+        width: 300px;
+    }
+
+ }
