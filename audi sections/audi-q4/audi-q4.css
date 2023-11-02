@@ -88,7 +88,7 @@ body,
 
 .button_q4 {
   width: 15%;
-  height: 50px;
+  height: 60px;
   background-color: white;
   border: none;
 }
@@ -97,8 +97,10 @@ body,
   background-color: #e9ebec;
 }
 
-.button_q4 p {
+.p_q4 {
+  width: 150px;
   color: black;
+  font-weight: 500;
 }
 
 /* SECTION CAPTION Q4 */
