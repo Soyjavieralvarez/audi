@@ -87,6 +87,9 @@ body,
 }
 
 .button_q4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 15%;
   height: 60px;
   background-color: white;
