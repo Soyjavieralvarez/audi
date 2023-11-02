@@ -135,7 +135,6 @@ body,
 .audi-q4-info {
   display: flex;
   flex-direction: row;
-  width: auto;
   align-items: center;
   justify-content: center;
 }
@@ -146,7 +145,7 @@ body,
 }
 
 .img-audi-q4 {
-  width: auto;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,23 +154,22 @@ body,
 .information-audi-q4 {
   color: white;
   background-color: black;
-  padding: 72px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .h3-information {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   font-size: 50px;
   font-weight: 400;
-  width: 100%;
-  padding: 10px;
+  width: auto;
 }
 
 .li-information {
+  margin: 10px;
   list-style: none;
-  padding-top: 15px;
 }
 
 .p-information {
@@ -182,11 +180,11 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
   background-color: black;
   height: 50px;
   border: solid 1px white;
-  width: 40%;
+  width: auto;
   padding: 20px;
 }
 
@@ -251,7 +249,8 @@ body,
 
 .innovation-design-text {
   color: white;
-  padding: 70px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .h5-innovation-design {
@@ -268,6 +267,10 @@ body,
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.img-innovation-design img {
+  height: 800px;
 }
 
 /* Section CUSTOMIZE */
@@ -303,12 +306,17 @@ body,
   width: 80%;
 }
 
+.button-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .button-customize {
   border: solid 1px rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: auto;
   padding: 20px;
   background-color: white;
 }
@@ -504,6 +512,8 @@ body,
 /* MEDIA QUERY MOBILE */
 
 @media only screen and (max-width: 767px) {
+
+  
   .nav {
     display: none;
   }
@@ -600,7 +610,8 @@ body,
   }
 
   .img-audi-q4 {
-    width: 400px;
+    height: auto;
+    width: 390px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -714,6 +725,7 @@ body,
 
   .innovation-design {
     background-color: black;
+    width: 100%;
   }
 
   .box-innovation-design {
@@ -723,9 +735,14 @@ body,
     justify-content: center;
   }
 
+  .img-innovation-design img {
+    height: 280px;
+  }
+
   .innovation-design-text {
     color: white;
-    padding: 70px;
+    padding: 0px;
+    text-align: center;
   }
 
   .h5-innovation-design {
@@ -736,16 +753,6 @@ body,
 
   .p-innovation-design {
     font-size: 15px;
-  }
-
-  .img-innovation-design {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .img-innovation-design img {
-    width: 400px;
   }
 
   /* Section CUSTOMIZE */

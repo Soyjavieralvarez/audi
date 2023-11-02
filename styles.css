@@ -19,7 +19,7 @@ body,
   flex-direction: column;
   justify-content: space-between;
   padding: 10px;
-  width: 100%;
+  width: auto;
   border-bottom: solid 1px black;
 }
 
@@ -62,7 +62,6 @@ body,
 
 .header-caption {
   background-image: url("./assets/audi-q4.jpg");
-  height: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -86,6 +85,8 @@ body,
 }
 
 .button-header-caption {
+  margin-bottom: 500px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,13 +108,13 @@ body,
 }
 
 .header-info {
-  height: 50%;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60px;
   text-align: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .header-info-h3 {
@@ -136,7 +137,7 @@ body,
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin: 80px;
+  margin: 50px;
 }
 
 .audi-summit_info {
@@ -150,8 +151,8 @@ body,
 .summit-info-h3 {
   display: flex;
   align-items: center;
-  margin: 30px;
-  font-size: 60px;
+  margin: 20px;
+  font-size: 50px;
 }
 
 .summit-info-h5 {
@@ -294,6 +295,7 @@ body,
 }
 
 .interest {
+  margin: 20px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -309,7 +311,7 @@ body,
 
 .interest_information_audi {
   padding: 20px;
-  margin: 40px;
+  margin: 20px;
   display: flex;
   flex-direction: row;
 }
@@ -323,10 +325,11 @@ body,
 }
 
 .interest_information_box img {
-  width: 500px;
+  width: 400px;
 }
 
 .information-audi-final {
+  width: 400px;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -472,37 +475,7 @@ body,
     display: none;
   }
 
-  .nav-left {
-    width: 90%;
-    display: flex;
-    align-items: center;
-  }
 
-  .nav-left img {
-    margin-left: 30px;
-  }
-
-  .nav-left span {
-    padding: 10px;
-    margin-right: 15px;
-  }
-
-  .nav-left a {
-    font-weight: 500;
-    color: rgb(177, 177, 177);
-  }
-
-  .nav-left a:hover {
-    font-weight: 500;
-    color: rgb(26, 24, 24);
-  }
-
-  .nav-right {
-    width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   .header-caption {
     background-image: url("./assets/audi-movile.jpg");
@@ -516,9 +489,9 @@ body,
   .header-caption_h1 {
     width: auto;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     margin: 20px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
   }
 
@@ -742,10 +715,11 @@ body,
   .button_streaming a {
     color: black;
     font-size: 15px;
+    font-weight: 600;
   }
 
   .interest {
-    width: 100%;
+    width: auto;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -777,8 +751,29 @@ body,
   }
 
   .interest_information_box img {
-    padding: 20px;
+    margin: 20px;
     width: 350px;
+  }
+
+  .information-audi-final {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .box_h5 {
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .box_p {
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .box_a {
+    color: black;
   }
 
   /* Section footer */
@@ -921,5 +916,5 @@ body,
 
 @media only screen and (max-width: 992px) {
 
-    
+
  }
