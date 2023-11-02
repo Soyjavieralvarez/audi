@@ -64,6 +64,7 @@ body,
 .info-q4 {
   background-image: url("../../assets/audi-q5.jpg");
   padding: 80px;
+  background-repeat: no-repeat;
 }
 
 .box-info-q4 {
