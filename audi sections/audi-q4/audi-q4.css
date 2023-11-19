@@ -183,6 +183,7 @@ body,
 
 .p-information {
   font-size: 15px;
+  color: white;
 }
 
 .button-information {
@@ -312,6 +313,9 @@ body,
 }
 
 .p-customize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 80%;
 }
 
